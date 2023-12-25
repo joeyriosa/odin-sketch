@@ -2,18 +2,36 @@ body {
     font-family: Arial, Helvetica, sans-serif
 }
 
+.checkbox {
+    height: 20px;
+    width: 20px;
+    background-color: blue;
+    border: 1px solid #333; /* Optional border */
+    border-radius: 4px; /* Optional border-radius for rounded corners */
+}
+
+.chkGroup {
+    display: flex;
+}
+
+.checkboxContainer {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
 #container {
     display: flex;
     flex-wrap: wrap;
-    border-top: 1px solid gray;
-    border-right: 1px solid gray;
+    border-top: 1px solid lightgray;
+    border-right: 1px solid lightgray;
     margin: 10px;
     width: 400px;
 }
 
 .smallBox {
-    border-left: 1px solid gray;
-    border-bottom: 1px solid gray;
+    border-left: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
     box-sizing: border-box;
 }
 
