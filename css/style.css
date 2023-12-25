@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+    margin: 10px;
+    width: 400px;
+}
+
+.smallBox {
+    border-left: 1px solid gray;
+    border-bottom: 1px solid gray;
+    box-sizing: border-box;
+}
+
+.smallBox:hover {
+    background-color: lightgray;
+}
+
+.mainButton {
+    padding: 10px 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    background-color: #007bff; /* Blue color, you can change this */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mainButton:hover {
+    background-color: #0056b3;
+}
+
+.mainButton:disabled {
+    background-color: #ddd; /* Light gray for disabled state */
+    color: #666; /* Darker text color for disabled state */
+    cursor: not-allowed;
+}
